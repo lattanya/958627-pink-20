@@ -1,0 +1,121 @@
+.checkbox {
+  padding-bottom: 24px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbox-legend {
+@include form-style__header();
+
+width: 222px;
+margin: 0 auto;
+text-align: center;
+}
+
+.checkbox__list {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 23px;
+  margin-bottom: 18px;
+}
+
+.checkbox__input {
+  font-size: 18px;
+  line-height: 30px;
+  color: $dark-two;
+}
+
+.checkbox__item {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.checkbox__label {
+@include form-style__value();
+
+  position: relative;
+  cursor: pointer;
+  padding-left: 69px;
+}
+
+.checkbox__item input + label::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $white;
+  border: 2px solid $white-two;
+  top: -8px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.checkbox__item input:checked + label::before {
+  background-image: url("../img/icon-check.svg");
+  background-position: 4px center;
+}
+
+@media (min-width: $tablet-width) {
+  .checkbox {
+    padding-bottom: 0;
+    border: 2px solid $white-two;
+    background-color: $white;
+    order: 3;
+  }
+
+  .checkbox-legend {
+    width: 435px;
+  }
+
+  .checkbox__list {
+    padding-left: 59px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+  }
+
+  .checkbox__label {
+    padding-left: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .checkbox {
+    padding-bottom: 27px;
+    padding-top: 29px;
+  }
+
+  .checkbox-legend {
+    width: 435px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .checkbox__list {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 59px;
+    flex-direction: column;
+    height: 164px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .checkbox__item {
+    width: 293px;
+  }
+
+  .checkbox__item:nth-child(3) {
+    margin-left: 21px;
+  }
+
+  .checkbox__item:nth-child(4) {
+    margin-left: 21px;
+  }
+}

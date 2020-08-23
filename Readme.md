@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Татьяна Латышева](https://up.htmlacademy.ru/adaptive/20/user/958627).
-* Наставник: `Неизвестно`.
+* Студент: [Татьяна Латышева](https://up.htmlacademy.ru/adaptive/17/user/958627).
+* Наставник: [Полина Катышева](https://htmlacademy.ru/profile/polina).
 
 ---
 
@@ -24,7 +24,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`,
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/958627-pink-20) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/958627-pink-17) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
 
 <img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808088-259e3a80-a190-11e9-98f7-3c0edd9740f5.jpg">
 
@@ -52,9 +52,9 @@ git clone SSH-адрес_вашего_форка
 
 <a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
 
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
+Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 2](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.com/htmlacademy-adaptive/958627-pink-20.svg?branch=master
-[travis-url]: https://travis-ci.com/htmlacademy-adaptive/958627-pink-20
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/958627-pink-20/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/958627-pink-20?type=dev
+[travis-image]: https://travis-ci.com/htmlacademy-adaptive/958627-pink-17.svg?branch=master
+[travis-url]: https://travis-ci.com/htmlacademy-adaptive/958627-pink-17
+[dependency-image]: https://david-dm.org/htmlacademy-adaptive/958627-pink-17/dev-status.svg?style=flat-square
+[dependency-url]: https://david-dm.org/htmlacademy-adaptive/958627-pink-17?type=dev

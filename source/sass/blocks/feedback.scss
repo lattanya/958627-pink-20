@@ -1,0 +1,135 @@
+.feedback {
+  text-align: center;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__image {
+  display: none;
+}
+
+.feedback__header {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: $black;
+  padding-top: 38px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.feedback__comment {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $dark-two;
+  display: none;
+}
+
+.feedback_wapper {
+  display: block;
+}
+
+.feedback__arrow {
+  display: none;
+}
+
+.feedback__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: normal;
+  color: $dark-two;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 0;
+  }
+
+  .feedback__text {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 34px;
+    margin: 0;
+  }
+
+  .feedback__comment {
+    display: block;
+    margin: 0;
+    order: 3;
+  }
+
+  .feedback__header {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 37px;
+    padding-bottom: 0;
+    order: 2;
+  }
+
+  .feedback__button-list {
+    order: 3;
+    margin-top: 29px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback {
+    width: 940px;
+    margin-top: 0;
+  }
+
+  .feedback__image {
+    margin-top: 70px;
+    display: block;
+  }
+
+  .feedback__header {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 33px;
+    padding-bottom: 0;
+  }
+
+  .feedback__comment {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .feedback_wapper {
+    padding-top: 54px;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .feedback__arrow {
+    display: block;
+    fill: $gray-normal;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+
+  .feedback__text {
+    padding-top: 0;
+    font-size: 18px;
+    width: 704px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .feedback__button-list {
+    display: none;
+  }
+}

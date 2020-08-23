@@ -1,0 +1,127 @@
+.effect {
+  display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .effect {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 60px;
+  }
+
+  .effect__image {
+    background-image: url("../img/icon-timer.svg");
+    width: 300px;
+    height: 273px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-left: 22px;
+  }
+
+  .effect__image-label {
+    font-size: 100px;
+    line-height: 1;
+    color: $lipstick;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 39%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-radius: 50%;
+    padding: 39px 29px;
+  }
+
+  .effect__wraper {
+    width: 265px;
+    padding-top: 6px;
+    padding-left: 6px;
+  }
+
+  .effect__header {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 13px;
+  }
+
+  .effect__text {
+    font-size: 14px;
+    line-height: 24px;
+    width: 296px;
+    margin: 0 0 11px 0;
+
+    br {
+      display: none;
+    }
+  }
+
+  .effect__link {
+    font-size: 14px;
+    line-height: 24px;
+    color: $lipstick;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .effect {
+    width: 100%;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 64px;
+    padding-top: 23px;
+    background-color: $white-two;
+  }
+
+  .effect__wraper {
+    width: 535px;
+    padding-top: 64px;
+    padding-left: 65px;
+    br {
+      display: none;
+    }
+  }
+
+  .effect__image {
+    width: 300px;
+    height: 345px;
+    margin-left: 0;
+  }
+
+  .effect__image-label {
+    font-size: 120px;
+    line-height: 1;
+    color: #d22856;
+    font-weight: 700;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-radius: 50%;
+    padding: 51px 42px;
+  }
+
+  .effect__header {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  .effect__text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 573px;
+    margin: 0 0 30px 0;
+
+    br {
+      display: block;
+    }
+  }
+
+  .effect__link {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

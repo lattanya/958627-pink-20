@@ -1,0 +1,24 @@
+@mixin form-style__value {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: $dark-two;
+}
+
+@mixin form-style__header {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  color: $lipstick;
+  text-transform: uppercase;
+}
+
+@mixin form-style__button {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  color: $white;
+  text-transform: uppercase;
+}

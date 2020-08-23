@@ -1,0 +1,21 @@
+.stores {
+  list-style: none;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 206px;
+}
+
+@media (min-width: $tablet-width) {
+  .stores {
+    margin: 0 0 30px 0;
+  }
+
+  .stores__item--microsoft {
+    padding-top: 10px;
+    margin-right: 4px;
+  }
+}

@@ -1,0 +1,149 @@
+.footer--hidden {
+  display: none;
+}
+
+.footer__wrapper {
+  background-color: $white;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.footer__logo-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 23px;
+}
+
+.footer__logo {
+  margin: 0 auto;
+  cursor: pointer;
+
+  &--desktop {
+    display: none;
+  }
+
+  &:hover .footer__logo-text,
+  &:focus .footer__logo-text {
+    fill: $lipstick;
+  }
+
+  &:active {
+    opacity: 0.3;
+    .footer__logo-text {
+      fill: $dark-two;
+    }
+  }
+}
+
+.footer__develop {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 127px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer__text {
+  color: $dark-two;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.footer__academy:hover .footer__academy--fill,
+.footer__academy:focus .footer__academy--fill {
+  fill: $dark-two;
+}
+
+.footer__academy:active .footer__academy--fill {
+  fill: $dark-two-03;
+}
+
+@media (min-width: $tablet-width) {
+  .footer {
+    &--hidden {
+      display: block;
+    }
+  }
+
+  .footer__wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+  }
+
+  .footer__logo-wrapper, .footer__develop{
+    flex-basis: 23%;
+  }
+
+  .footer__logo-wrapper {
+    padding-top: 28px;
+    padding-bottom: 40px;
+    margin: 0;
+  }
+
+  .footer__develop {
+    margin: 0;
+    justify-content: flex-end;
+    margin-left: 54px;
+  }
+
+  .footer__text {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer {
+    padding-top: 38px;
+    padding-bottom: 70px;
+  }
+
+  .footer__wrapper {
+    padding-top: 0;
+  }
+
+  .footer__logo-wrapper {
+    width: 150px;
+    padding-top: 0;
+    padding-bottom: 13px;
+    padding-left: 0;
+    padding-right: 70px;
+  }
+
+  .footer__logo {
+    margin: 0;
+
+    &--mobile {
+      display: none;
+    }
+
+    &--desktop {
+      display: block;
+    }
+  }
+
+  .footer__develop {
+    width: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+
+  .footer__academy {
+    padding-top: 13px;
+  }
+}

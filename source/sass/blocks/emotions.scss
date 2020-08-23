@@ -1,0 +1,64 @@
+.emotions__field {
+  @include form-style__value();
+
+  display: block;
+  min-height: 200px;
+  width: 280px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid $white-two;
+  resize: none;
+  padding-top: 14px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.emotions__legend {
+  @include form-style__header();
+
+  width: 222px;
+  padding-top: 40px;
+  padding-bottom: 14px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .emotions__field {
+    width: 497px;
+    text-align: left;
+    padding-top: 14px;
+    padding-left: 16px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 30px;
+    color: $dark-two;
+    margin-top: 37px;
+    min-height: 193px;
+  }
+
+  .emotions__legend {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .emotions__field {
+    width: 820px;
+    min-height: 126px;
+    padding-top: 13px;
+    padding-left: 18px;
+    margin-bottom: 42px;
+  }
+
+  .emotions__legend {
+    width: 260px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+}

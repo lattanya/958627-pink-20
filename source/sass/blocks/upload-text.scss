@@ -1,0 +1,28 @@
+.upload-text {
+  padding-top: 13px;
+  padding-bottom: 40px;
+}
+
+.upload-text__content {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .upload-text {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .upload-text__content {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .upload-text {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+}

@@ -1,0 +1,235 @@
+.prices {
+  min-height: 475px;
+  background-image: url("../img/mask2.png");
+  background-color: white;
+  background-position: center -42px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 89px;
+  padding-bottom: 2px;
+}
+
+.prices__wrapper {
+  overflow: hidden;
+  position: relative;
+  min-height: 319px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.prices__table {
+  width: 345%;
+  position: absolute;
+  transform: translateX(-48%);
+}
+
+.prices__head-cell {
+  background-color: $dark-two;
+  color: $white;
+  position: relative;
+  width: 235px;
+
+  &--hit {
+    &::before {
+      content: ("Хит");
+      position: absolute;
+      top: 21px;
+      left: 8px;
+      z-index: 1;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.prices__hit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.prices__name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-transform: uppercase;
+  text-align: center;
+  color: $white;
+  padding-top: 17px;
+  padding-bottom: 2px;
+}
+
+.prices__value {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: center;
+  color: $white;
+  padding-bottom: 18px;
+}
+
+.prices__inner-cell {
+  border: 1px solid $white-two;
+  background-color: $white;
+  text-align: left;
+  padding-left: 19px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  position: relative;
+  font-size: 14px;
+  line-height: 30px;
+  color: $dark-two;
+  text-transform: uppercase;
+}
+
+.prices__pic {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.prices__side-cell {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: $dark-two;
+  border: 1px solid $white-two;
+  background-color: $white;
+  width: 235px;
+}
+
+@media (min-width: $tablet-width) {
+  .prices {
+    padding-top: 102px;
+    padding-bottom: 0;
+    min-height: 391px;
+    background-image: url("../img/mask_tablet_2.png");
+    background-position: center -9px;
+  }
+
+  .prices__table {
+    width: 100%;
+    transform: none;
+    position: static;
+    border-spacing: 0px;
+  }
+
+  .prices__wrapper {
+    min-height: 220px;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .prices__head-cell {
+    width: 154px;
+  }
+
+  .prices__name {
+    padding-top: 14px;
+    padding-bottom: 0;
+    font-size: 16px;
+  }
+
+  .prices__value {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 12px;
+  }
+
+  .prices__inner-cell {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 154px;
+  }
+
+  .prices__side-cell {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 0;
+    width: 154px;
+  }
+
+  .prices__servise {
+    display: none;
+  }
+
+  .prices__pic {
+    position: relative;
+    top: 5px;
+    right: 0;
+  }
+
+  .prices__head-cell--hit::before {
+    top: 11px;
+    left: 4px;
+  }
+
+  .prices__hit {
+    top: -8px;
+    left: -4px;
+  }
+
+  .prices__button-list {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .prices {
+    padding-top: 195px;
+    padding-bottom: 87px;
+    background-image: url("../img/mask_desktop_2.png");
+    background-position: center 33px;
+  }
+
+  .prices__wrapper {
+    min-height: 295px;
+  }
+
+  .prices__name {
+    padding-top: 14px;
+    padding-bottom: 4px;
+  }
+
+  .prices__value {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 0;
+    padding-bottom: 19px;
+  }
+
+  .prices__table {
+    width: 940px;
+  }
+
+  .prices__servise {
+    display: none;
+  }
+
+  .prices__pic {
+    position: relative;
+    top: 5px;
+    right: 0;
+  }
+
+  .prices__side-cell {
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 21px;
+    padding-right: 0;
+    padding-top: 6px;
+    padding-bottom: 7px;
+  }
+
+  .prices__inner-cell {
+    padding-top: 16px;
+    padding-bottom: 7px;
+  }
+}

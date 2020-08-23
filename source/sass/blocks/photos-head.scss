@@ -1,0 +1,49 @@
+.photos-head {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 28px;
+  padding-bottom: 83px;
+}
+
+.photos-head__header {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: $white;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  width: 170px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .photos-head {
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    padding-top: 71px;
+    padding-bottom: 142px;
+  }
+
+.photos-head__header {
+font-size: 50px;
+line-height: 1.2  ;
+width: 356px;
+}
+}
+@media (min-width: $desktop-width) {
+.photos-head {
+  background-image: url("../img/bg-back-desktop@1x.jpg");
+  padding-top: 47px;
+  padding-bottom: 101px;
+  width: 100%;
+}
+
+.photos-head__header {
+  font-size: 50px;
+  line-height: 1.2;
+  width: 354px;
+  padding-top: 125px;
+  }
+}

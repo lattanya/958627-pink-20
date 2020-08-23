@@ -1,0 +1,40 @@
+.photos-invite {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.photos-invite__text {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: none;
+    color: $dark-two;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+  }
+
+@media (min-width: $tablet-width) {
+  .photos-invite {
+    padding-top: 93px;
+    padding-bottom: 76px;
+  }
+
+  .photos-invite__text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 438px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photos-invite {
+    padding-top: 93px;
+    padding-bottom: 89px;
+  }
+
+  .photos-invite__text {
+      font-size: 18px;
+      line-height: 30px;
+      width: 580px;
+  }
+}

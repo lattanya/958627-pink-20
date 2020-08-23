@@ -1,0 +1,121 @@
+.radio {
+  border: 2px solid $white-two;
+  background-color: $white-two;
+  order: 3;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 0;
+}
+
+.radio__header {
+@include form-style__header();
+
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.radio__item {
+  padding-top: 0;
+  padding-bottom: 46px;
+}
+
+.radio__list {
+  padding-left: 20px;
+  list-style: none;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.radio__label {
+@include form-style__value();
+
+  position: relative;
+  cursor: pointer;
+  padding-left: 69px;
+}
+
+.radio__item input + label::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $white;
+  border: 2px solid $gray-light;
+  border-radius: 50%;
+  top: -5px;
+  left: 1px;
+  width: 37px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.radio__item input:checked + label::before {
+  background-image: url("../img/icon-map-marker.svg");
+  background-position: -2px center;
+}
+
+@media (min-width: $tablet-width) {
+  .radio {
+    border: 1px solid $white-two;
+    background-color: $white;
+    order: 1;
+  }
+
+  .radio__header {
+    width: 380px;
+    background-color: $white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    top: -15px;
+    left: 137px;
+    display: inline-block;
+  }
+
+  .radio__list {
+    padding-left: 77px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+  }
+
+  .radio__label {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .radio {
+    width: 46%;
+    border: none;
+  }
+
+  .radio__header {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 370px;
+    position: relative;
+    top: -15px;
+    left: 50px;
+    display: inline-block;
+  }
+
+  .radio__list {
+    padding-left: 93px;
+    padding-top: 23px;
+  }
+
+  .radio__item {
+    padding-bottom: 45px;
+  }
+}

@@ -1,0 +1,129 @@
+.contact-data__legend {
+@include form-style__header();
+
+  display: none;
+}
+
+.contact-data__list {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-data__item {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.contact-data__label {
+  @include form-style__header();
+
+  color: $lipstick;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 22px;
+}
+
+.contact-data__wrapper {
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.contact-data__field {
+  @include form-style__value();
+
+  padding-top: 16px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 0;
+  width: 100%;
+  border: 2px solid $white-two;
+}
+
+.contact-data__pic {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .contact-data__legend {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .contact-data__list {
+    padding-left: 0;
+  }
+
+  .contact-data__wrapper {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .contact-data__label {
+    width: 530px;
+    margin-left: 61px;
+    margin-bottom: 18px;
+    padding: 16px;
+    order: 1;
+  }
+
+  .contact-data__field {
+    width: 437px;
+    padding-left: 17px;
+    order: -1;
+  }
+
+  .contact-data__pic {
+    display: inline-block;
+    background-color: $white-two;
+    width: 60px;
+    min-height: 60px;
+    order: 0;
+    padding: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contact-data {
+    margin-top: 3px;
+  }
+  .contact-data__legend {
+    padding: 0;
+  }
+  .contact-data__list {
+    width: 820px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .contact-data__wrapper {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .contact-data__field {
+    padding: 14px;
+    padding-left: 17px;
+    width: 313px;
+    order: -1;
+  }
+
+  .contact-data__label {
+    width: 375px;
+    padding-top: 15px;
+    padding-bottom: 21px;
+    padding-left: 19px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
