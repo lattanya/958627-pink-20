@@ -92,7 +92,7 @@
 
     position: absolute;
     top: 31px;
-    right: 0px;
+    right: 0;
 
     width: 30px;
     height: 5px;
@@ -112,7 +112,6 @@
   &:active::after {
     background-color: rgba(255, 255, 255, 0.3);
   }
-  
 }
 
 .main-header--opened .main-header__toggle:hover::before {
@@ -200,15 +199,12 @@
   }
 
   .main-header--opened .main-header__toggle {
-  
     &::before,
     &::after {
       content: "";
-  
       position: absolute;
       top: 54px;
       right: -4px;
-  
       width: 30px;
       height: 5px;
       background-color: #ffffff;
@@ -248,7 +244,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
-    &--opened, 
+    &--opened,
     &--closed {
       .main-header__wrapper {
         padding-bottom: 0;

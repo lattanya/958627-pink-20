@@ -22,26 +22,26 @@
 }
 
 .map::after {
-  background-image: url(../img/icon-map-marker.svg);
+  background-image: url("../img/icon-map-marker.svg");
   background-position: -2px center;
   content: "";
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #fff;
-    border: 2px solid #f2f2f2;
-    border-radius: 50%;
-    top: 110px;
-    left: 140px;
-    width: 37px;
-    height: 36px;
-    z-index: 1;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  top: 98px;
+  left: 142px;
+  width: 37px;
+  height: 36px;
+  z-index: 1;
 }
 
 @media (min-width: $tablet-width) {
   .map {
     background-image: url("../img/bg-map-tablet@1x.jpg");
-    background-position: top -323px right 0;
+    background-position: top -348px right -20px;
+    background-size: auto;
     height: 375px;
   }
 
@@ -55,8 +55,8 @@
   }
 
   .map::after {
-      top: 190px;
-      left: 315px;
+    top: 190px;
+    left: 315px;
   }
 }
 
@@ -79,5 +79,5 @@
   .map::after {
     top: 279px;
     left: 579px;
-}
+  }
 }

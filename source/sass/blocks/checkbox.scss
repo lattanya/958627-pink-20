@@ -1,16 +1,14 @@
 .checkbox {
-  padding-bottom: 24px;
-  border: none;
   padding: 0;
+  border: none;
   margin: 0;
 }
 
 .checkbox-legend {
-@include form-style__header();
-
-width: 222px;
-margin: 0 auto;
-text-align: center;
+  @include form-style__header();
+  width: 222px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .checkbox__list {
@@ -32,8 +30,7 @@ text-align: center;
 }
 
 .checkbox__label {
-@include form-style__value();
-
+  @include form-style__value();
   position: relative;
   cursor: pointer;
   padding-left: 69px;

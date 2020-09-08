@@ -6,7 +6,7 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 180px;
-  margin-top: 35px;
+  margin-top: 24px;
 }
 
 .social-list__item {
@@ -35,6 +35,6 @@
 @media (min-width: $tablet-width) {
   .social-list {
     width: 185px;
-    margin-top: 16px;
+    margin: 0 auto;
   }
 }

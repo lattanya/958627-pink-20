@@ -2,7 +2,6 @@
   border: 2px solid $white-two;
   background-color: $white-two;
   order: 3;
-  border: none;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -20px;
@@ -11,13 +10,12 @@
 }
 
 .radio__header {
-@include form-style__header();
-
+  @include form-style__header();
   width: 230px;
   margin: 0 auto;
   text-align: center;
   padding-top: 38px;
-  padding-bottom: 38px;
+  padding-bottom: 36px;
 }
 
 .radio__item {
@@ -33,8 +31,7 @@
 }
 
 .radio__label {
-@include form-style__value();
-
+  @include form-style__value();
   position: relative;
   cursor: pointer;
   padding-left: 69px;

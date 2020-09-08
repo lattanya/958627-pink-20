@@ -4,7 +4,6 @@
   display: block;
   min-height: 200px;
   width: 280px;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
   margin-left: auto;
@@ -20,8 +19,8 @@
   @include form-style__header();
 
   width: 222px;
-  padding-top: 40px;
-  padding-bottom: 14px;
+  padding-top: 37px;
+  padding-bottom: 16px;
   margin: 0 auto;
   text-align: center;
 }

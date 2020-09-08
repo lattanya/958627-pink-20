@@ -75,13 +75,14 @@
     width: 320px;
     text-align: left;
     padding-top: 0;
-    margin-left: 51px;
+    margin-left: 32px;
     margin-right: 0;
     margin-top: 86px;
   }
 
   .features__item {
     padding-top: 0;
+    padding-left: 10px;
     margin-bottom: 40px;
   }
 
@@ -104,7 +105,7 @@
 @media (min-width: $desktop-width) {
   .features {
     background-image: url("../img/mask_desktop.png");
-    background-position: center 0px;
+    background-position: center 0;
   }
 
   .features__pic--desktop {
@@ -140,6 +141,7 @@
   .features__item {
     width: 245px;
     padding-top: 0;
+    padding-left: 0;
   }
 
   .features__header {
@@ -149,7 +151,7 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 7px;
-    padding-bottom: 24px;
+    padding-bottom: 28px;
 
     &--width {
       width: 230px;

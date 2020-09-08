@@ -1,22 +1,22 @@
 .slider-controls {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    list-style: none;
-    margin: 0 auto;
-    width: 70px;
-    }
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  width: 70px;
+}
 
-    .slider-controls__button {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: $white-two;
-    margin: 7px;
+.slider-controls__button {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: $white-two;
+  margin: 7px;
 
-    &--active {
-        border: 3px solid $dark-two-03;
-        height: 10px;
-        width: 10px;
-    }
+  &--active {
+    border: 3px solid $dark-two-03;
+    height: 10px;
+    width: 10px;
   }
+}

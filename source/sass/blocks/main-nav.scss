@@ -37,7 +37,7 @@
   background-color: $dark-two;
 }
 
-@media (min-width: $tablet-width){
+@media (min-width: $tablet-width) {
   .main-nav__item {
     padding-top: 15px;
   }
@@ -49,6 +49,7 @@
     width: 100%;
     padding-top: 9px;
   }
+
   .main-nav__list {
     flex-direction: row;
     justify-content: space-between;

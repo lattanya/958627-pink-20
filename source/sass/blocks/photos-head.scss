@@ -26,24 +26,25 @@
     padding-bottom: 142px;
   }
 
-.photos-head__header {
-font-size: 50px;
-line-height: 1.2  ;
-width: 356px;
-}
-}
-@media (min-width: $desktop-width) {
-.photos-head {
-  background-image: url("../img/bg-back-desktop@1x.jpg");
-  padding-top: 47px;
-  padding-bottom: 101px;
-  width: 100%;
+  .photos-head__header {
+    font-size: 50px;
+    line-height: 1.2;
+    width: 356px;
+  }
 }
 
-.photos-head__header {
-  font-size: 50px;
-  line-height: 1.2;
-  width: 354px;
-  padding-top: 125px;
+@media (min-width: $desktop-width) {
+  .photos-head {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    padding-top: 47px;
+    padding-bottom: 101px;
+    width: 100%;
+  }
+
+  .photos-head__header {
+    font-size: 50px;
+    line-height: 1.2;
+    width: 354px;
+    padding-top: 125px;
   }
 }

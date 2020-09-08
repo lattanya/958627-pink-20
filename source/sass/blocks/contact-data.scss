@@ -1,6 +1,5 @@
 .contact-data__legend {
-@include form-style__header();
-
+  @include form-style__header();
   display: none;
 }
 
@@ -95,9 +94,11 @@
   .contact-data {
     margin-top: 3px;
   }
+
   .contact-data__legend {
     padding: 0;
   }
+
   .contact-data__list {
     width: 820px;
     flex-direction: row;
@@ -123,7 +124,7 @@
     padding-top: 15px;
     padding-bottom: 21px;
     padding-left: 19px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 }

@@ -5,7 +5,7 @@
   background-position: center -42px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 89px;
+  padding-top: 94px;
   padding-bottom: 2px;
 }
 
@@ -110,7 +110,7 @@
     width: 100%;
     transform: none;
     position: static;
-    border-spacing: 0px;
+    border-spacing: 0;
   }
 
   .prices__wrapper {
@@ -183,7 +183,7 @@
 @media (min-width: $desktop-width) {
   .prices {
     padding-top: 195px;
-    padding-bottom: 87px;
+    padding-bottom: 78px;
     background-image: url("../img/mask_desktop_2.png");
     background-position: center 33px;
   }

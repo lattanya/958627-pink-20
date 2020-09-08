@@ -12,7 +12,7 @@
   color: $dark-two;
   width: 230px;
   padding-top: 40px;
-  padding-bottom: 26px;
+  padding-bottom: 29px;
   margin: 0 auto;
   text-align: center;
 }
@@ -77,12 +77,13 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 550px;
+    width: 565px;
+    padding-bottom: 7px;
   }
 
   .contacts__header {
     font-size: 40px;
-    line-height: 46px;
+    line-height: 48px;
     font-weight: 300;
     width: 380px;
     padding-top: 47px;
@@ -100,17 +101,18 @@
   }
 
   .contacts__info {
-    margin-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .contacts__phone {
-    width: 242px;
+    width: 247px;
+    margin-bottom: 29px;
   }
 
   .contacts__mail {
-    width: 242px;
+    width: 247px;
+    margin-bottom: 29px;
   }
 }
 
