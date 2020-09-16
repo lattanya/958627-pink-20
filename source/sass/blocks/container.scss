@@ -1,4 +1,3 @@
-
 .container {
   margin: 0 auto;
   width: 100%;
@@ -16,5 +15,6 @@
   .container {
     padding-left: 130px;
     padding-right: 130px;
+    max-width: $desktop-width;
   }
 }

@@ -38,7 +38,7 @@
   top: 20px;
   right: 20px;
   z-index: 2;
-  display: block;
+  display: none;
   width: 50px;
   height: 25px;
   background-color: transparent;
@@ -68,18 +68,6 @@
   background-color: $lipstick-03;
   box-shadow: 0 8px 0 0 $lipstick-03, 0 16px 0 0 $lipstick-03;
 }
-
-// .main-header--closed {
-//   .main-header__toggle {
-//     display: none;
-//   }
-// }
-
-// .main-header--nojs {
-//   .main-header__toggle {
-//     display: none;
-//   }
-// }
 
 .main-header--opened .main-header__toggle {
   top: 0;
@@ -227,7 +215,6 @@
     padding-bottom: 0;
     min-height: auto;
   }
-
 
   .main-header {
     display: flex;
