@@ -118,6 +118,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .contacts {
+    margin-bottom: 10px;
+  }
+
   .contacts__wrapper {
     display: flex;
     box-sizing: border-box;
@@ -134,7 +138,7 @@
     font-weight: 300;
     width: 462px;
     padding-top: 63px;
-    padding-bottom: 47px;
+    padding-bottom: 40px;
     margin: 0 auto;
   }
 
